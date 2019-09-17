@@ -29,4 +29,3 @@ while guess != the_number:
         print(f"You guessed it! Congratulations, {name}!")
 
 print("Thanks for playing!")
-
