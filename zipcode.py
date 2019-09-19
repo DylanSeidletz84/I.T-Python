@@ -10,13 +10,13 @@ player_choice = input("Please enter a zip code:")
     if player_choice == zip_codes[0]:
         print("The zip code 49309 is for Bitely")
         play_again = input("Want to play again(yes/no): ")
-    if player_choice == zip_codes[1]:
+    elif player_choice == zip_codes[1]:
         print("The zip code 49312 is for Brohman")
         play_again = input("Want to play again(yes/no): ")
-    if player_choice == zip_codes[2]:
+    elif player_choice == zip_codes[2]:
         print("The zip code 49337 is for Croton and Newaygo")
         play_again = input("Want to play again(yes/no): ")
-    if player_choice == zip_codes[3]:
+    elif player_choice == zip_codes[3]:
         print("The zip code 49412 is for Fremont")
         play_again = input("Want to play again(yes/no): ")
     if player_choice == zip_codes[4]:
