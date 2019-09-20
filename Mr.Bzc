@@ -1,0 +1,30 @@
+from banner import banner
+banner ("ZIP CODE SORTER", "Dylan Seidletz")
+
+print("Welcome to the Newaygo County zip code sorter.")
+
+while True:
+    zip_code = int(input("Please enter a zip code: "))
+    if zip_code == 49303:
+        print(f"The zip code for {zip_code} is for Bitely.")
+    elif zip_code == 49312:
+        print(f"The zip code for {zip_code} is for Brohman.")
+    elif zip_code == 49337:
+        print(f"The zip code for {zip_code} is for Brohman.")
+    elif zip_code == 49412:
+        print(f"The zip code for {zip_code} is for Brohman.")
+    elif zip_code == 49413:
+        print(f"The zip code for {zip_code} is for Brohman.")
+    #
+    ##
+    #
+    else:
+        print(f" the zip code {zip_code} is not in newaygo county.")
+    if input("Would you like to enter another zip code (y/n).") == "Y":
+        continue
+    else:
+        break
+
+print("thank you")
+
+
